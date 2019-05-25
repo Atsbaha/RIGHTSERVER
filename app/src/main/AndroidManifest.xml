@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.saintmary.rightserver">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".DrinkDetail"></activity>
+        <activity android:name=".DrinkList" />
+        <activity android:name=".EUser" /> <!-- <activity android:name=".UserEnable" /> -->
+        <activity android:name=".DrinkOrderStatus" />
+        <activity android:name=".Drink_Home" />
+        <activity android:name=".music_orderstatus" />
+        <activity android:name=".intent_to_DJ" />
+        <activity android:name=".intent_to_admin" />
+        <activity android:name=".FootballProgram_Home" /> <!-- <activity android:name=".FootballProgra_Home"></activity> -->
+        <activity android:name=".MusicList" /> <!-- <activity android:name=".music_list" /> -->
+        <activity android:name=".Music_Home" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.example.android.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignIn" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".FoodList" />
+        <activity android:name=".UploadFile" />
+        <activity android:name=".OrderStatus" />
+
+        <service android:name=".Service.MyFirebaseIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Service.MyFirebaseMessaging">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

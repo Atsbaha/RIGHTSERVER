@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">RIGHTSERVER</string>
+    <string name="slogan">We transport products to customers as quickly as possible</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Rs">\u20B9</string>
+    <string name="filled_bullet">\u25CF</string>
+    <string name="linear_bullet">\u25CB</string>
+    <string name="rect_bullet">\u25A0</string>
+    <string name="blank_rect">\u25A1</string>
+    <string name="true_tick">\u2713</string>
+    <string name="forget_pwd"><u>Forget Password?</u></string>
+    <string name="star1">\u2605 You Can Order Your favourite foods From Our restaurant </string>
+    <string name="star2">\u2605 Be Fun And Happy by Ordering The Music you like.\n First Priority is Given to whom He/She Orders first </string>
+    <string name="star3">\u2605 You can View Football games Schedule  which are going to be watched  </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

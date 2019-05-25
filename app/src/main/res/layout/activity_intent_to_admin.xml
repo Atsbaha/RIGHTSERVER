@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.saintmary.rightserver.intent_to_admin">
+    <!--<ImageView
+        android:id="@+id/img_food"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        app:layout_collapseMode="parallax"
+        android:background="@drawable/background"
+        />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:background="@drawable/background">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/firstLinear"
+        android:layout_marginTop="420dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnFoodingOrder"
+            android:text="Food Order"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:textStyle="bold|italic"
+
+            android:textColor="#C3C5C9"
+            android:background="@drawable/btn_background"/>
+        <Button
+            android:id="@+id/btnDrinkOrder"
+            android:text="Drink Order"
+            android:textStyle="bold|italic"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:textColor="#C3C5C9"
+            android:layout_weight="1"
+            android:background="@drawable/btn_background"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/secondLinear"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstLinear">
+
+        <Button
+            android:id="@+id/btnFootballProgram"
+            android:text="Football Program"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:textColor="#C3C5C9"
+            android:layout_weight="1"
+            android:textStyle="bold|italic"
+
+            android:background="@drawable/btn_background"
+            />
+
+
+        <Button
+            android:id="@+id/btnEnableUser"
+            android:text="Enable User"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:textColor="#C3C5C9"
+            android:textStyle="bold|italic"
+            android:background="@drawable/btn_background"
+
+
+
+
+
+            />
+
+        <!--android:background="@color/colorPrimary"-->
+        <!--<Button
+            android:id="@+id/btnMusicOrder"
+            android:text="Drink Order"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold|italic"
+            android:background="@drawable/button_background"
+            />-->
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondLinear">
+        <!--<Button
+            android:id="@+id/btnTableReservation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_background"
+            android:text="Table Reservation"
+            android:textStyle="bold|italic" />-->
+
+    </LinearLayout>
+
+
+</RelativeLayout>
+
